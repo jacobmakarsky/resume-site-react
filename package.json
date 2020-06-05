@@ -1,6 +1,6 @@
 {
   "name": "resume-site-react",
-  "homepage": "https://www.makarsky.dev",
+  "homepage": "https://www.makarsky.dev/", 
   "version": "0.1.0",
   "private": true,
   "dependencies": {
