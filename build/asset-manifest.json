@@ -1,22 +1,36 @@
 {
   "files": {
-    "main.css": "/static/css/main.5facb584.chunk.css",
-    "main.js": "/static/js/main.cc3d1432.chunk.js",
-    "main.js.map": "/static/js/main.cc3d1432.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.a06441c3.js",
-    "runtime-main.js.map": "/static/js/runtime-main.a06441c3.js.map",
-    "static/js/2.804ccffe.chunk.js": "/static/js/2.804ccffe.chunk.js",
-    "static/js/2.804ccffe.chunk.js.map": "/static/js/2.804ccffe.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.d315739ef759c936c36b921794713eb1.js": "/precache-manifest.d315739ef759c936c36b921794713eb1.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.5facb584.chunk.css.map": "/static/css/main.5facb584.chunk.css.map",
-    "static/js/2.804ccffe.chunk.js.LICENSE.txt": "/static/js/2.804ccffe.chunk.js.LICENSE.txt"
+    "main.css": "/resume-site-react/static/css/main.1ebc17af.chunk.css",
+    "main.js": "/resume-site-react/static/js/main.c7569e91.chunk.js",
+    "main.js.map": "/resume-site-react/static/js/main.c7569e91.chunk.js.map",
+    "runtime-main.js": "/resume-site-react/static/js/runtime-main.e301cbab.js",
+    "runtime-main.js.map": "/resume-site-react/static/js/runtime-main.e301cbab.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/resume-site-react/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.0e0bf797.chunk.js": "/resume-site-react/static/js/2.0e0bf797.chunk.js",
+    "static/js/2.0e0bf797.chunk.js.map": "/resume-site-react/static/js/2.0e0bf797.chunk.js.map",
+    "index.html": "/resume-site-react/index.html",
+    "precache-manifest.d2b6c0d558be092c09ebbb1176d512a1.js": "/resume-site-react/precache-manifest.d2b6c0d558be092c09ebbb1176d512a1.js",
+    "service-worker.js": "/resume-site-react/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/resume-site-react/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.1ebc17af.chunk.css.map": "/resume-site-react/static/css/main.1ebc17af.chunk.css.map",
+    "static/js/2.0e0bf797.chunk.js.LICENSE.txt": "/resume-site-react/static/js/2.0e0bf797.chunk.js.LICENSE.txt",
+    "static/media/forbes.JPG": "/resume-site-react/static/media/forbes.02549161.JPG",
+    "static/media/hackpsu.jpeg": "/resume-site-react/static/media/hackpsu.540c0bfe.jpeg",
+    "static/media/headerBackground.jpg": "/resume-site-react/static/media/headerBackground.dec78884.jpg",
+    "static/media/innoblue.JPG": "/resume-site-react/static/media/innoblue.b181550c.JPG",
+    "static/media/jacob.jpg": "/resume-site-react/static/media/jacob.808354bf.jpg",
+    "static/media/loopring.JPG": "/resume-site-react/static/media/loopring.14d007cc.JPG",
+    "static/media/me.JPG": "/resume-site-react/static/media/me.9af1358c.JPG",
+    "static/media/nittanyai.JPG": "/resume-site-react/static/media/nittanyai.f96128fb.JPG",
+    "static/media/slideshowBackground.jpg": "/resume-site-react/static/media/slideshowBackground.97f188b0.jpg",
+    "static/media/website.jpg": "/resume-site-react/static/media/website.71388b17.jpg",
+    "static/media/workshop1.JPG": "/resume-site-react/static/media/workshop1.ee57dab1.JPG"
   },
   "entrypoints": [
-    "static/js/runtime-main.a06441c3.js",
-    "static/js/2.804ccffe.chunk.js",
-    "static/css/main.5facb584.chunk.css",
-    "static/js/main.cc3d1432.chunk.js"
+    "static/js/runtime-main.e301cbab.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.0e0bf797.chunk.js",
+    "static/css/main.1ebc17af.chunk.css",
+    "static/js/main.c7569e91.chunk.js"
   ]
 }
