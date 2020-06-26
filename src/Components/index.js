@@ -1,0 +1,6 @@
+export { default as Header } from "./Header.js"
+export { default as AboutMe } from "./AboutMe.js"
+export { default as Resume } from "./Resume.js"
+export { default as Projects } from "./Projects.js"
+export { default as Slideshow } from "./Slideshow.js"
+export { default as Contact } from "./Contact.js"

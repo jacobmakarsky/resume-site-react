@@ -1,53 +1,100 @@
 import React, { Component } from 'react';
 
+import Container from 'react-bootstrap/Container'
+import Jumbotron from 'react-bootstrap/Jumbotron'
+import Button from 'react-bootstrap/Button'
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+
+import Background from '../assets/headerBackground.jpg'
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faSkype } from '@fortawesome/free-brands-svg-icons'
+
+const styles = {
+	transparentColor: {
+		backgroundColor: 'rgba(0, 0, 0, 0.5)'
+	},
+
+	jumbotron: {
+		backgroundImage: `url(${Background})`,
+
+		/* Center and scale the image nicely */
+	    backgroundPosition: 'center',
+	    backgroundRepeat: 'no-repeat',
+	    backgroundSize: 'cover',
+	},
+
+	link: {
+		color: '#FFFFFF',
+		fontSize: '1.2rem'
+	},
+
+	button: {
+		color: '#FFFFFF',
+		fontSize: '2rem'
+	}
+}
+
 class Header extends Component {
   render() {
 
-    if(this.props.data){
-      var name = this.props.data.name;
-      var occupation= this.props.data.occupation;
-      var description= this.props.data.description;
-      var city= this.props.data.address.city;
-      var networks= this.props.data.social.map(function(network){
-        return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
-      })
-    }
-
     return (
-      <header id="home">
+		<Jumbotron fluid style = {styles.jumbotron} className = "vw-100 vh-100 position-center m-0" id="home">
+			<div style = {styles.transparentColor} className = "position-absolute fixed-top w-100 h-100">
+				<Container fluid = "lg" className = "d-flex justify-content-center align-items-center">
+					<Navbar 
+						expand="lg"
+						sticky="top"
+						variant = "dark"
+						collapseOnSelect
+					>
+					  <Navbar.Toggle aria-controls="basic-navbar-nav"/>
 
-      <nav id="nav-wrap">
+					  <Navbar.Collapse id="basic-navbar-nav">
+					    <Nav>
+					      <Nav.Link style = {styles.link} href="#home" className="mr-3">Home</Nav.Link>
+					      <Nav.Link style = {styles.link} href="#aboutMe" className="mr-3">About</Nav.Link>
+					      <Nav.Link style = {styles.link} href="#resume" className="mr-3">Resume</Nav.Link>
+					      <Nav.Link style = {styles.link} href="#projects" className="mr-3">Projects</Nav.Link>
+					      <Nav.Link style = {styles.link} href="#slideshow" className="mr-3">Gallery</Nav.Link>
+					      <Nav.Link style = {styles.link} href="#contact" className="mr-3">Contact</Nav.Link>
+					    </Nav>
+					  </Navbar.Collapse>
+					</Navbar>
+				</Container>
 
-         <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
+				<Container fluid = "lg" className = "h-100 d-flex justify-content-center align-items-center">
+					<Row>
+						<Col>
+							<h1 className = "display-1">Jacob Makarsky</h1>
 
-         <ul id="nav" className="nav">
-            <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-            <li><a className="smoothscroll" href="#about">About</a></li>
-	         <li><a className="smoothscroll" href="#resume">Resume</a></li>
-            <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-            <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
-            <li><a className="smoothscroll" href="#contact">Contact</a></li>
-         </ul>
+							<p className = "lead">
+								Pittsburgh based Software Engineer & Entrepreneur. 
+								Co-Founder of LiveBet, Partner at Digital Wealth Management.
+							</p>
 
-      </nav>
+							
+							<Button style = {styles.button} size = "lg" href = "https://www.linkedin.com/in/jacobmakarsky/" variant="link" className="mr-2">
+								<FontAwesomeIcon icon={faLinkedinIn}/>
+							</Button>
 
-      <div className="row banner">
-         <div className="banner-text">
-            <h1 className="responsive-headline">{name}</h1>
-            <h3>{city} based <span>{occupation}</span>. {description}.</h3>
-            <hr />
-            <ul className="social">
-               {networks}
-            </ul>
-         </div>
-      </div>
+							<Button style = {styles.button} size = "lg" href = "https://github.com/jacobmakarsky" variant="link" className="mr-2">
+								<FontAwesomeIcon icon={faGithub}/>
+							</Button>
 
-      <p className="scrolldown">
-         <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
-      </p>
-
-   </header>
+							<Button style = {styles.button} size = "lg" href = "https://join.skype.com/invite/EzF6Q3uTfQAZ" variant="link">
+								<FontAwesomeIcon icon={faSkype} />
+							</Button>
+						</Col>
+					</Row>
+				</Container>
+			</div>
+		</Jumbotron>
     );
   }
 }
