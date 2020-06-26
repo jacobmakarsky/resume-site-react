@@ -37,7 +37,7 @@ class AboutMe extends Component {
 		    	</Row>
 
 		    	<Row>
-			    	<Col className = "p-0 mt-5">
+			    	<Col md = {6} className = "p-0 mt-5">
 			    		<h3 className = "text-white">Contact Details</h3>
 				    	<p className = "text-muted mt-3">Jacob Makarsky</p>
 				    	<p className = "text-muted">Pittsburgh, Pennsylvania</p>

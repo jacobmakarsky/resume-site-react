@@ -27,7 +27,7 @@ class Contact extends Component {
     return (
 		<Container fluid className = "bg-light" id="projects">
 		  <Row md = {12} className = "p-5">
-		    <Col md = {3} className="m-auto">
+		    <Col md = {6} className="m-auto">
 		    	<Card>
 				  <Card.Header as="h5">Contact Me</Card.Header>
 				  <Card.Body>
@@ -49,6 +49,12 @@ class Contact extends Component {
 				  </Card.Footer>
 				</Card>
 		    </Col>
+		  </Row>
+
+		  <Row md = {12} className = "p-5">
+		  	<Col md = {12}>
+		  		<Card body>Copyright © 2020 Jacob Makarsky</Card>
+		  	</Col>
 		  </Row>
 		</Container>
     );

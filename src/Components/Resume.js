@@ -16,7 +16,7 @@ class Resume extends Component {
     return (
 		<Container fluid className = "bg-light" id="resume">
 			<Row md = {12} className = "p-5">
-		    	<Col md={3}>
+		    	<Col md={3} className = "d-flex justify-content-center align-items-center">
 		    		<h1 className = "display-4 mb-3">Education</h1>
 		    	</Col>
 
