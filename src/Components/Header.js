@@ -45,7 +45,7 @@ class Header extends Component {
 
     return (
 		<Jumbotron fluid style = {styles.jumbotron} className = "vw-100 vh-100 position-center m-0" id="home">
-			<div style = {styles.transparentColor} className = "position-absolute fixed-top w-100 h-100">
+			<div style = {styles.transparentColor} className = "position-absolute fixed-top vw-100 vh-100">
 				<Container fluid = "lg" className = "d-flex justify-content-center align-items-center">
 					<Navbar 
 						expand="lg"
