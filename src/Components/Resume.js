@@ -42,20 +42,6 @@ class Resume extends Component {
 		    	</Col>
 
 		    	<Col md = {6} className = "mx-auto">
-		    		<Card className="text-center" className = "mb-5">
-					  <Card.Header>LiveBet</Card.Header>
-					  <Card.Body>
-					    <Card.Title>Co-Founder</Card.Title>
-					    <h6 className = "card-subtitle mb-2 text-muted">Jan 2020 - Present</h6>
-					    <Card.Text>
-					      Designing and developing software (HTML, CSS, Javascript, React, Solidity) for a 
-					      live peer-to-peer betting platform, helping grow startup through pitch decks, 
-					      speaking to lawyers, financials, the whole shabang...
-					    </Card.Text>
-					  </Card.Body>
-					  <Card.Footer>Sydney, Australia</Card.Footer>
-					</Card>
-
 					<Card className="text-center" className = "mb-5">
 					  <Card.Header>Digital Wealth Management</Card.Header>
 					  <Card.Body>

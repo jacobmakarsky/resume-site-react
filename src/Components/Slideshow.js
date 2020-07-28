@@ -45,7 +45,7 @@ class Slideshow extends Component {
 				    <img
 				      className="d-block w-100"
 				      src={HackPSU}
-				      alt="Third slide"
+				      alt="Second slide"
 				    />
 				  </Carousel.Item>
 
@@ -61,7 +61,7 @@ class Slideshow extends Component {
 				    <img
 				      className="d-block w-100"
 				      src={Loopring}
-				      alt="Third slide"
+				      alt="Fourth slide"
 				    />
 				  </Carousel.Item>
 				</Carousel>

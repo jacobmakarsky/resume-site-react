@@ -33,7 +33,6 @@ class AboutMe extends Component {
 			    		with different methods of development. I plan to be a digital nomad; I want to see the world and 
 			    		eventually gain enough equity to help in philanthropy.
 			    	</p>
-
 		    	</Row>
 
 		    	<Row>

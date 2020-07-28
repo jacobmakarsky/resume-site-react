@@ -11,6 +11,7 @@ import Popover from 'react-bootstrap/Popover'
 import PopoverTitle from 'react-bootstrap/PopoverTitle'
 import PopoverContent from 'react-bootstrap/PopoverContent'
 
+import Miletus from '../assets/portfolio/miletus.jpg'
 import Innoblue from '../assets/portfolio/innoblue.JPG'
 import HackPSU from '../assets/portfolio/nittanyai.JPG'
 import HackPSU2 from '../assets/portfolio/workshop1.JPG'
@@ -24,21 +25,40 @@ class Projects extends Component {
 			<h3 className = "display-4 text-white pt-5">Projects</h3>
 
 			<Row md = {12} className = "p-5">
+				<Col md = {3} className = "mb-3">
+			    		<OverlayTrigger
+							placement = "top"
+							overlay = {
+						        <Popover id="popover-basic">
+								    <Popover.Title as="h3">Miletus - Crypto Arbitrage Trading Software</Popover.Title>
+								    <Popover.Content>
+								      Custom software using <strong>React</strong> & <strong>Javascript</strong>. <strong>Draggable</strong> & <strong>Resizeable</strong> components. <strong>Customizeable personal dashboard</strong>. My crown jewel project :)
+								    </Popover.Content>
+								</Popover>
+					      }
+					    >
+					    	<Button variant="link" href="https://www.linkedin.com/company/digitalwealthmanagement/">
+					      		<Image className = "w-50" rounded fluid src = {Miletus}/>
+					      	</Button>
+					    </OverlayTrigger>
+		    	</Col>
 
-		    	<Col md = {3} className = "mb-3">
-		    		<OverlayTrigger
-						placement = "top"
-						overlay = {
-					        <Popover id="popover-basic">
-							    <Popover.Title as="h3">Innoblue Website - 2019</Popover.Title>
-							    <Popover.Content>
-							      Custom website using <strong>HTML, CSS, Javascript, Git & Github.</strong>
-							    </Popover.Content>
-							</Popover>
-				      }
-				    >
-				      <Image className = "w-50" rounded fluid src = {Innoblue}/>
-				    </OverlayTrigger>
+				<Col md = {3} className = "mb-3">
+			    		<OverlayTrigger
+							placement = "top"
+							overlay = {
+						        <Popover id="popover-basic">
+								    <Popover.Title as="h3">Innoblue Website - 2019</Popover.Title>
+								    <Popover.Content>
+								      Custom website using <strong>HTML, CSS, Javascript, Git & Github.</strong>
+								    </Popover.Content>
+								</Popover>
+					      }
+					    >
+					    	<Button variant="link" href="http://www.innoblue.org">
+					      		<Image className = "w-50" rounded fluid src = {Innoblue}/>
+					      	</Button>
+					    </OverlayTrigger>
 		    	</Col>
 
 		    	<Col md = {3} className = "mb-3">
@@ -53,7 +73,9 @@ class Projects extends Component {
 							</Popover>
 				      }
 				    >
-				      <Image className = "w-50" rounded fluid src = {HackPSU}/>
+				    	<Button variant="link" href="https://devpost.com/software/disaster-relief-recovery-application-drra">
+				      		<Image className = "w-50" rounded fluid src = {HackPSU}/>
+				      	</Button>
 				    </OverlayTrigger>
 		    	</Col>
 
@@ -69,7 +91,9 @@ class Projects extends Component {
 							</Popover>
 				      }
 				    >
-				      <Image className = "w-50" rounded fluid src = {HackPSU2}/>
+				    	<Button variant="link" href="https://devpost.com/software/park-ranger-manager">
+				      		<Image className = "w-50" rounded fluid src = {HackPSU2}/>
+				      	</Button>
 				    </OverlayTrigger>
 		    	</Col>
 
@@ -85,7 +109,9 @@ class Projects extends Component {
 							</Popover>
 				      }
 				    >
-				      <Image className = "w-50" rounded fluid src = {Website}/>
+				    	<Button variant="link" href="https://www.makarsky.dev">
+				      		<Image className = "w-50" rounded fluid src = {Website}/>
+				      	</Button>
 				    </OverlayTrigger>
 		    	</Col>
 			  </Row>
