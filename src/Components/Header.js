@@ -75,7 +75,7 @@ class Header extends Component {
 
 							<p className = "lead">
 								Pittsburgh based Software Engineer & Entrepreneur. 
-								Co-Founder of LiveBet, Partner at Digital Wealth Management.
+								Partner at Digital Wealth Management.
 							</p>
 
 							
