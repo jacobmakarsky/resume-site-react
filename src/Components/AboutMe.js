@@ -42,12 +42,6 @@ class AboutMe extends Component {
 				    	<p className = "text-muted">Pittsburgh, Pennsylvania</p>
 				    	<p className = "text-muted">jacobmakarsky@gmail.com</p>
 			    	</Col>
-
-			    	<Col className = "mt-5">
-			    		<Button variant="secondary" size="md" href = "https://makarsky.dev/">
-					      <FontAwesomeIcon icon={faGoogleDrive}/> Download Resume
-					    </Button>
-			    	</Col>
 		    	</Row>
 		    </Col>
 		  </Row>
