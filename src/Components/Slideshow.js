@@ -31,40 +31,20 @@ class Slideshow extends Component {
     return (
 		<Container fluid style = {styles.background} id="projects" className = "vw-100 vh-100">
 		  <Row md = {12} className = "p-5 h-100 d-flex justify-content-center align-items-center">
-		    <Col md = {3} >
-		    	<Carousel fade>
-				  <Carousel.Item>
-				    <img
-				      className="d-block w-100"
-				      src={Forbes}
-				      alt="First slide"
-				    />
-				  </Carousel.Item>
+		    <Col xs={12} md={3}>
+		      <Image src={Jacob} thumbnail fluid/>
+		    </Col>
 
-				  <Carousel.Item>
-				    <img
-				      className="d-block w-100"
-				      src={HackPSU}
-				      alt="Second slide"
-				    />
-				  </Carousel.Item>
+		    <Col xs={6} md={3}>
+		      <Image src={HackPSU} thumbnail fluid/>
+		    </Col>
 
-				  <Carousel.Item>
-				    <img
-				      className="d-block w-100"
-				      src={Jacob}
-				      alt="Third slide"
-				    />
-				  </Carousel.Item>
+		    <Col xs={6} md={3}>
+		      <Image src={Loopring} thumbnail fluid/>
+		    </Col>
 
-				  <Carousel.Item>
-				    <img
-				      className="d-block w-100"
-				      src={Loopring}
-				      alt="Fourth slide"
-				    />
-				  </Carousel.Item>
-				</Carousel>
+		    <Col xs={6} md={3}>
+		      <Image src={Forbes} thumbnail fluid/>
 		    </Col>
 		  </Row>
 		</Container>

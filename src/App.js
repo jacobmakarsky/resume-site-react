@@ -7,7 +7,6 @@ import
   AboutMe,
   Resume,
   Projects,
-  Slideshow,
   Contact
 } from './components/index.js'
 
@@ -15,14 +14,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        < Header />
+        <Header />
       </header>
 
-        < AboutMe />
-        < Resume />
-        < Projects />
-        < Slideshow />
-        < Contact />
+      <AboutMe />
+      <Resume />
+      <Projects />
+      <Contact />
     </div>
   );
 }

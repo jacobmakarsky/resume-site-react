@@ -44,8 +44,8 @@ class Header extends Component {
   render() {
 
     return (
-		<Jumbotron fluid style = {styles.jumbotron} className = "vw-100 vh-100 position-center m-0" id="home">
-			<div style = {styles.transparentColor} className = "position-absolute fixed-top vw-100 vh-100">
+		<Jumbotron fluid style = {styles.jumbotron} className = "w-100 vh-100 position-center m-0" id="home">
+			<div style = {styles.transparentColor} className = "position-absolute fixed-top w-100 vh-100">
 				<Container fluid = "lg" className = "d-flex justify-content-center align-items-center">
 					<Navbar 
 						expand="lg"
@@ -60,8 +60,7 @@ class Header extends Component {
 					      <Nav.Link style = {styles.link} href="#home" className="mr-3">Home</Nav.Link>
 					      <Nav.Link style = {styles.link} href="#aboutMe" className="mr-3">About</Nav.Link>
 					      <Nav.Link style = {styles.link} href="#resume" className="mr-3">Resume</Nav.Link>
-					      <Nav.Link style = {styles.link} href="#projects" className="mr-3">Projects</Nav.Link>
-					      <Nav.Link style = {styles.link} href="#slideshow" className="mr-3">Gallery</Nav.Link>
+					      <Nav.Link style = {styles.link} href="#projects" className="mr-3">Portfolio</Nav.Link>
 					      <Nav.Link style = {styles.link} href="#contact" className="mr-3">Contact</Nav.Link>
 					    </Nav>
 					  </Navbar.Collapse>
@@ -74,11 +73,9 @@ class Header extends Component {
 							<h1 className = "display-1">Jacob Makarsky</h1>
 
 							<p className = "lead">
-								Pittsburgh based Software Engineer & Entrepreneur. 
-								Partner at Digital Wealth Management.
+								Pittsburgh based Software Engineer & UX/UI Designer.
 							</p>
 
-							
 							<Button style = {styles.button} size = "lg" href = "https://www.linkedin.com/in/jacobmakarsky/" variant="link" className="mr-2">
 								<FontAwesomeIcon icon={faLinkedinIn}/>
 							</Button>
