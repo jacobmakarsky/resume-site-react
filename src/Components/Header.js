@@ -11,9 +11,9 @@ import Col from 'react-bootstrap/Col'
 import Background from '../assets/headerBackground.jpg'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faSkype } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons/faLinkedinIn'
+import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub'
+import { faSkype } from '@fortawesome/free-brands-svg-icons/faSkype'
 
 const styles = {
 	transparentColor: {

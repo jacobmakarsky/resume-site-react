@@ -17,7 +17,8 @@ import {
 	AntCarousel,
 	HackCarousel,
 	NittanyCarousel,
-	LiveBetCarousel
+	LiveBetCarousel,
+	LoopringCarousel
 } from './carousels';
 
 class Projects extends Component {
@@ -105,9 +106,9 @@ class Projects extends Component {
 			  </Card>
 
 			  <Card>
-			    <Card.Img variant="top" src= {Loopring} />
+			    <LoopringCarousel />
 			    <Card.Body>
-			      <Card.Title>Loopring - Summer 2019</Card.Title>
+			      <Card.Title>TRON Blockchain Smart Contract - Summer 2019</Card.Title>
 			      <Card.Text>
 			      	Developed smart contract (Solidity, JS) to allow users to swap Loopring’s NEO blockchain coin (LRC), traded at a volume of $5k-$50k USD/day, for Loopring’s TRON blockchain coin (LRN)
 			      </Card.Text>
@@ -125,9 +126,12 @@ class Projects extends Component {
 			    <Card.Body>
 			      <Card.Title>AntEater, Shanghai Hackathon - Summer 2019 </Card.Title>
 			      <Card.Text>
-					Web application that scanned business websites (looking for keywords) using <strong>AI</strong> to find the best B2B customer for business. I created it with 2 other teammates using <strong>Python</strong> & <strong>Javascript</strong>. It was at a Hackathon I found; joined a random team at in China while studying abroad. I designed the front-end and presented the project.
+					Web application that scanned business websites (looking for keywords) using <strong>AI</strong> to find the best B2B customer for business. I created it with 2 other teammates using <strong>Python</strong> & <strong>Javascript</strong>. It was at a Hackathon I found; joined a random team at in China while studying abroad. I designed the front-end/logo and presented the project.
 			      </Card.Text>
 			    </Card.Body>
+			    <Card.Footer>
+			      	<Button variant="primary" href="https://www.hackathon.io/projects/21875">See More</Button>
+			    </Card.Footer>
 			  </Card>
 
 			  <Card bg = "primary" text = "light">
@@ -139,11 +143,14 @@ class Projects extends Component {
 			  <Card>
 			    <HackCarousel />
 			    <Card.Body>
-			      <Card.Title>HackPSU - Spring/Fall 2019 </Card.Title>
+			      <Card.Title>Workshop Host - Spring/Fall 2019 </Card.Title>
 			      <Card.Text>
 			      	2 time invited guest speaker / presenter. Hosted workshop on "Intro to Blockchain Development" where I showed 60+ workshop attendees how to make an <strong>Ethereum</strong> smart contract using <strong>Solidity</strong> on Remix. Hosted another workshop on "Intro to iOS Development" where I showed 40+ attendees how to design and develop a basic <strong>iOS</strong> portfolio app using <strong>Xcode</strong>, <strong>Swift</strong>, and <strong>Adobe XD</strong>.
 			      </Card.Text>
 			    </Card.Body>
+			    <Card.Footer>
+			      	<Button variant="primary" href="https://drive.google.com/drive/folders/1XOUUYmi6xkU3t2ubHO7PCBFS52xDuHx_?usp=sharing">See More</Button>
+			    </Card.Footer>
 			  </Card>
 
 			  <Card>

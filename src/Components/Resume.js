@@ -10,6 +10,9 @@ import ProgressBar from 'react-bootstrap/ProgressBar'
 
 import Me from '../assets/me.JPG'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUserGraduate } from '@fortawesome/free-solid-svg-icons/faUserGraduate'
+
 class Resume extends Component {
   render() {
 
@@ -22,7 +25,7 @@ class Resume extends Component {
 
 		    	<Col md = {6} className = "mx-auto">
 		    		<Card className="text-center">
-					  <Card.Header>Pennsylvania State University</Card.Header>
+					  <Card.Header>Pennsylvania State University <FontAwesomeIcon icon={faUserGraduate} size="md" color="gray"/></Card.Header>
 					  <Card.Body>
 					    <Card.Title>B.S in Information Science & Technology</Card.Title>
 					    <h6 className = "card-subtitle mb-2 text-muted">May 2020</h6>
@@ -109,7 +112,7 @@ class Resume extends Component {
 					  <Card.Header>CTe Learning, Inc.</Card.Header>
 					  <Card.Body>
 					    <Card.Title>App Designer</Card.Title>
-					    <h6 className = "card-subtitle mb-2 text-muted">SMar 2016 - May 2016</h6>
+					    <h6 className = "card-subtitle mb-2 text-muted">Mar 2016 - May 2016</h6>
 					    <Card.Text>
 					      I was employed by Cte Learning Incorporated; it was a paid internship where I designed an 
 					      application for Big Time Grain Company. I regularly pitched the project status of the application 

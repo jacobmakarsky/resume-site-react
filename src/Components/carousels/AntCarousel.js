@@ -11,7 +11,7 @@ import Pic6 from '../../../src/assets/portfolio/shanghai.JPG'
 class AntCarousel extends Component {
   render() {
     return (
-      <Carousel>
+      <Carousel interval={null}>
         <Carousel.Item>
           <img
             className="d-block w-100"

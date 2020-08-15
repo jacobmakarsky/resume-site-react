@@ -8,9 +8,10 @@ import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faSkype } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons/faLinkedinIn'
+import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub'
+import { faSkype } from '@fortawesome/free-brands-svg-icons/faSkype'
+import { faAddressCard } from '@fortawesome/free-solid-svg-icons/faAddressCard'
 
 import Me from '../assets/me.JPG'
 
@@ -29,7 +30,7 @@ class Contact extends Component {
 		  <Row md = {12} className = "p-5">
 		    <Col md = {6} className="m-auto">
 		    	<Card>
-				  <Card.Header as="h5">Contact Me</Card.Header>
+				  <Card.Header as="h5">Contact Me <FontAwesomeIcon icon = {faAddressCard} size="md" /></Card.Header>
 				  <Card.Body>
 				    <Card.Title>jacobmakarsky@gmail.com</Card.Title>
 				    <Button variant="primary" href = "mailto:jacobmakarsky@gmail.com">Email Me</Button>
