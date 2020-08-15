@@ -26,7 +26,7 @@ class AboutMe extends Component {
 					<Card className="text-center">
 					  	<Card.Body>
 					  		<Card.Text>I enjoy being around people, using my imagination to design & develop software and experimenting 
-			    			with different methods of development. I plan to be a digital nomad; I want to see the world and 
+			    			with different methods of development. Finding the cleanest and easiest way to design/develop something is a big challenge, but something I greatly enjoy doing. I plan to be a digital nomad; I want to see the world and 
 			    			eventually gain enough equity to help in philanthropy.
 			    			</Card.Text>
 					  	</Card.Body>

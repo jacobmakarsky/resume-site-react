@@ -30,3 +30,16 @@
 .display-1 {
   font-size: 4rem !important;
 }
+
+.carousel .carousel-indicators li {
+  background-color: #000;
+}
+
+.carousel .carousel-indicators .active {
+  background-color: #000;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}

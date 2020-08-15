@@ -98,7 +98,8 @@ class Resume extends Component {
 					    <Card.Title>Blockchain Software Engineering Intern</Card.Title>
 					    <h6 className = "card-subtitle mb-2 text-muted">Sept 2019 - Nov 2019</h6>
 					    <Card.Text>
-					      Design & Develop an iOS application using Swift, Xcode and Adobe XD
+					      	Developed smart contract (Solidity, JS) to allow users to swap Loopring’s NEO blockchain coin (LRC), traded at a volume of $5k-$50k USD/day, for Loopring’s TRON blockchain coin (LRN).
+					    	Designed some event posters and social media images.
 					    </Card.Text>
 					  </Card.Body>
 					  <Card.Footer>Shanghai, China</Card.Footer>

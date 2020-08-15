@@ -1,37 +1,32 @@
 {
   "files": {
     "main.css": "/static/css/main.046e09ba.chunk.css",
-    "main.js": "/static/js/main.6fea32a9.chunk.js",
-    "main.js.map": "/static/js/main.6fea32a9.chunk.js.map",
+    "main.js": "/static/js/main.92c617e1.chunk.js",
+    "main.js.map": "/static/js/main.92c617e1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2791205e.js",
     "runtime-main.js.map": "/static/js/runtime-main.2791205e.js.map",
     "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.a06a9a97.chunk.js": "/static/js/2.a06a9a97.chunk.js",
-    "static/js/2.a06a9a97.chunk.js.map": "/static/js/2.a06a9a97.chunk.js.map",
+    "static/js/2.fa1e7f19.chunk.js": "/static/js/2.fa1e7f19.chunk.js",
+    "static/js/2.fa1e7f19.chunk.js.map": "/static/js/2.fa1e7f19.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.79733fa62b848612a1f8e7705a77775c.js": "/precache-manifest.79733fa62b848612a1f8e7705a77775c.js",
+    "precache-manifest.9a12368400380ea66b8cd31accc27926.js": "/precache-manifest.9a12368400380ea66b8cd31accc27926.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.046e09ba.chunk.css.map": "/static/css/main.046e09ba.chunk.css.map",
-    "static/js/2.a06a9a97.chunk.js.LICENSE.txt": "/static/js/2.a06a9a97.chunk.js.LICENSE.txt",
-    "static/media/forbes.JPG": "/static/media/forbes.02549161.JPG",
-    "static/media/hackpsu.jpeg": "/static/media/hackpsu.540c0bfe.jpeg",
+    "static/js/2.fa1e7f19.chunk.js.LICENSE.txt": "/static/js/2.fa1e7f19.chunk.js.LICENSE.txt",
     "static/media/headerBackground.jpg": "/static/media/headerBackground.dec78884.jpg",
     "static/media/innoblue.JPG": "/static/media/innoblue.b181550c.JPG",
-    "static/media/jacob.jpg": "/static/media/jacob.808354bf.jpg",
-    "static/media/loopring.JPG": "/static/media/loopring.14d007cc.JPG",
     "static/media/me.JPG": "/static/media/me.9af1358c.JPG",
     "static/media/miletus.jpg": "/static/media/miletus.a43a0e6f.jpg",
     "static/media/nittanyai.JPG": "/static/media/nittanyai.f96128fb.JPG",
-    "static/media/slideshowBackground.jpg": "/static/media/slideshowBackground.97f188b0.jpg",
     "static/media/website.jpg": "/static/media/website.71388b17.jpg",
     "static/media/workshop1.JPG": "/static/media/workshop1.ee57dab1.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.2791205e.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.a06a9a97.chunk.js",
+    "static/js/2.fa1e7f19.chunk.js",
     "static/css/main.046e09ba.chunk.css",
-    "static/js/main.6fea32a9.chunk.js"
+    "static/js/main.92c617e1.chunk.js"
   ]
 }
