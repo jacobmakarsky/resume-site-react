@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.86bb4a1c.chunk.css",
-    "main.js": "/static/js/main.465b204a.chunk.js",
-    "main.js.map": "/static/js/main.465b204a.chunk.js.map",
+    "main.js": "/static/js/main.992a552a.chunk.js",
+    "main.js.map": "/static/js/main.992a552a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2791205e.js",
     "runtime-main.js.map": "/static/js/runtime-main.2791205e.js.map",
     "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.a36332b4.chunk.js": "/static/js/2.a36332b4.chunk.js",
-    "static/js/2.a36332b4.chunk.js.map": "/static/js/2.a36332b4.chunk.js.map",
+    "static/js/2.f587bcd4.chunk.js": "/static/js/2.f587bcd4.chunk.js",
+    "static/js/2.f587bcd4.chunk.js.map": "/static/js/2.f587bcd4.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c66331da659822915502325e9178a6cd.js": "/precache-manifest.c66331da659822915502325e9178a6cd.js",
+    "precache-manifest.8affc2d5a111d5796cbb8c8c9d2fced4.js": "/precache-manifest.8affc2d5a111d5796cbb8c8c9d2fced4.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.86bb4a1c.chunk.css.map": "/static/css/main.86bb4a1c.chunk.css.map",
-    "static/js/2.a36332b4.chunk.js.LICENSE.txt": "/static/js/2.a36332b4.chunk.js.LICENSE.txt",
+    "static/js/2.f587bcd4.chunk.js.LICENSE.txt": "/static/js/2.f587bcd4.chunk.js.LICENSE.txt",
     "static/media/anteater1.JPG": "/static/media/anteater1.07ddcaaf.JPG",
     "static/media/anteater3.JPG": "/static/media/anteater3.3f2e2c3a.JPG",
     "static/media/anteater4.JPG": "/static/media/anteater4.8f87a1b5.JPG",
@@ -28,6 +28,9 @@
     "static/media/livebet.JPG": "/static/media/livebet.dfa11666.JPG",
     "static/media/livebet2.JPG": "/static/media/livebet2.82779f7c.JPG",
     "static/media/loopring.JPG": "/static/media/loopring.797a099f.JPG",
+    "static/media/loopring2.JPG": "/static/media/loopring2.c4ebdb17.JPG",
+    "static/media/loopring3.JPG": "/static/media/loopring3.61ce2a38.JPG",
+    "static/media/loopring4.JPG": "/static/media/loopring4.de38319e.JPG",
     "static/media/me.JPG": "/static/media/me.9af1358c.JPG",
     "static/media/miletus.JPG": "/static/media/miletus.e27b28f3.JPG",
     "static/media/nittany1.JPG": "/static/media/nittany1.34ce4123.JPG",
@@ -44,8 +47,8 @@
   "entrypoints": [
     "static/js/runtime-main.2791205e.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.a36332b4.chunk.js",
+    "static/js/2.f587bcd4.chunk.js",
     "static/css/main.86bb4a1c.chunk.css",
-    "static/js/main.465b204a.chunk.js"
+    "static/js/main.992a552a.chunk.js"
   ]
 }

@@ -9,7 +9,6 @@ import Card from 'react-bootstrap/Card'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGoogleDrive } from '@fortawesome/free-brands-svg-icons/faGoogleDrive'
-import { faSmile } from '@fortawesome/free-solid-svg-icons/faSmile'
 import { faAddressCard } from '@fortawesome/free-solid-svg-icons/faAddressCard'
 
 import Me from '../assets/me.JPG'
@@ -27,7 +26,6 @@ class AboutMe extends Component {
 				<Col xs = {12} md = {4} className = "m-auto p-5">
 					<Card className="text-center">
 					  	<Card.Body>
-					  		<FontAwesomeIcon icon = {faSmile} size = "md" pull="left" color="gray"/>
 					  		<Card.Text>I enjoy being around people, using my imagination to design & develop software and experimenting 
 			    			with different methods of development. Finding the cleanest and easiest way to design/develop something is a big challenge, but something I greatly enjoy doing. I plan to be a digital nomad; I want to see the world and 
 			    			eventually gain enough equity to help in philanthropy.

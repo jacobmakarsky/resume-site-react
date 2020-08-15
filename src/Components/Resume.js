@@ -11,7 +11,7 @@ import ProgressBar from 'react-bootstrap/ProgressBar'
 import Me from '../assets/me.JPG'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUserGraduate } from '@fortawesome/free-solid-svg-icons/faUserGraduate'
+import { faGraduationCap } from '@fortawesome/free-solid-svg-icons/faGraduationCap'
 
 class Resume extends Component {
   render() {
@@ -20,12 +20,12 @@ class Resume extends Component {
 		<Container fluid className = "bg-light" id="resume">
 			<Row md = {12} className = "p-5">
 		    	<Col md={3} className = "d-flex justify-content-center align-items-center">
-		    		<h1 className = "display-4 mb-3">Education</h1>
+		    		<h1 className = "display-4 mb-3">Education <FontAwesomeIcon icon={faGraduationCap} size="xs"/></h1>
 		    	</Col>
 
 		    	<Col md = {6} className = "mx-auto">
 		    		<Card className="text-center">
-					  <Card.Header>Pennsylvania State University <FontAwesomeIcon icon={faUserGraduate} size="md" color="gray"/></Card.Header>
+					  <Card.Header>Pennsylvania State University</Card.Header>
 					  <Card.Body>
 					    <Card.Title>B.S in Information Science & Technology</Card.Title>
 					    <h6 className = "card-subtitle mb-2 text-muted">May 2020</h6>
@@ -240,10 +240,10 @@ class Resume extends Component {
 
 					<Card className = "mb-3">
 					  <Card.Header className="text-left">
-					  	User Experience & Design
+					  	User Experience
 					  </Card.Header>
 					  <Card.Body>
-					    <ProgressBar animated now={80} />
+					    <ProgressBar animated now={90} />
 					  </Card.Body>
 					</Card>
 		    	</Col>
