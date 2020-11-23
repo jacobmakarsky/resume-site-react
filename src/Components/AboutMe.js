@@ -16,13 +16,15 @@ class AboutMe extends Component {
   render() {
 
     return (
-		<Container fluid className = "bg-dark" id="aboutMe">
-			<Row>
-				<Col xs = {12} md={4} className = "d-flex justify-content-center align-items-center">
-		    		<h1 className = "display-4 mt-5 text-light">About Me</h1>
+		<Container fluid style={{backgroundColor: "#162129"}} id="aboutMe">
+			<Row xs={12} className="pt-5 justify-content-md-center">
+				<Col>
+		    		<h1 className = "display-4 text-light">About Me</h1>
 		    	</Col>
+		    </Row>
 
-				<Col xs = {12} md = {4} className = "m-auto p-5">
+		    <Row xs = {12} className="p-5">
+				<Col xs = {12} md = {6} lg={4} className = "m-auto">
 					<Card className="text-center">
 					  	<Card.Body>
 					  		<Card.Text>I love creating and do so through software development. Focuses on blockchain and disruptive technology. 我会说一点中文。Я учу русский. 
@@ -30,19 +32,6 @@ class AboutMe extends Component {
 					  	</Card.Body>
 					</Card>
 				</Col>
-
-				<Col xs = {12} md = {4} className = "m-auto p-5">
-		    		<Card className="text-center">
-		    			<Card.Header><strong>Contact Details</strong></Card.Header>
-					  	<Card.Body>
-					  		<Card.Text>
-					  			<p className = "text-muted">Jacob Makarsky</p>
-			    				<p className = "text-muted">Pittsburgh, Pennsylvania</p>
-			    				<p className = "text-muted">jacobmakarsky@gmail.com</p>
-			    			</Card.Text>
-					  	</Card.Body>
-					</Card>				 
-		    	</Col>
 			</Row>
 		</Container>
     );

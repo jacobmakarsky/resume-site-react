@@ -25,7 +25,7 @@ class Projects extends Component {
   render() {
 
     return (
-		<Container fluid className = "bg-dark p-1" id="projects">
+		<Container fluid style={{backgroundColor: "#162129"}} className = "p-1" id="projects">
 			<h3 className = "display-4 text-white pt-5">Portfolio</h3>
 
 			<CardColumns className = "m-5 p-2">

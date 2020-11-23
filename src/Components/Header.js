@@ -14,6 +14,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons/faLinkedinIn'
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub'
 import { faSkype } from '@fortawesome/free-brands-svg-icons/faSkype'
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons/faEnvelope'
 
 const styles = {
 	transparentColor: {
@@ -76,16 +77,16 @@ class Header extends Component {
 								Pittsburgh based Software Engineer & UX/UI Designer.
 							</p>
 
+							<Button style = {styles.button} size = "lg" href = "mailto:jacobmakarsky@gmail.com" variant="link" className="mr-2">
+								<FontAwesomeIcon icon={faEnvelope}/>
+							</Button>
+
 							<Button style = {styles.button} size = "lg" href = "https://www.linkedin.com/in/jacobmakarsky/" variant="link" className="mr-2">
 								<FontAwesomeIcon icon={faLinkedinIn}/>
 							</Button>
 
 							<Button style = {styles.button} size = "lg" href = "https://github.com/jacobmakarsky" variant="link" className="mr-2">
 								<FontAwesomeIcon icon={faGithub}/>
-							</Button>
-
-							<Button style = {styles.button} size = "lg" href = "https://join.skype.com/invite/EzF6Q3uTfQAZ" variant="link">
-								<FontAwesomeIcon icon={faSkype} />
 							</Button>
 						</Col>
 					</Row>

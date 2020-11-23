@@ -26,7 +26,7 @@ class Contact extends Component {
   render() {
 
     return (
-		<Container fluid className = "bg-light" id="projects">
+		<Container fluid className = "bg-light" id="contact">
 		  <Row md = {12} className = "p-5">
 		    <Col md = {6} className="m-auto">
 		    	<Card>
@@ -42,10 +42,6 @@ class Contact extends Component {
 
 					<Button style = {styles.button} size = "lg" href = "https://github.com/jacobmakarsky" variant="link" className="mr-2">
 						<FontAwesomeIcon icon={faGithub}/>
-					</Button>
-
-					<Button style = {styles.button} size = "lg" href = "https://join.skype.com/invite/EzF6Q3uTfQAZ" variant="link">
-						<FontAwesomeIcon icon={faSkype} />
 					</Button>
 				  </Card.Footer>
 				</Card>
