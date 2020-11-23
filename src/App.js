@@ -8,7 +8,7 @@ import
   Resume,
   Projects,
   Contact
-} from './components/index.js'
+} from './Components/index.js'
 
 function App() {
   return (

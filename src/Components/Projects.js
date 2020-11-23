@@ -7,8 +7,8 @@ import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
 import CardColumns from 'react-bootstrap/CardColumns'
 
-import Miletus from '../assets/portfolio/miletus.JPG'
-import Website from '../assets/portfolio/website.JPG'
+import Miletus from '../assets/portfolio/miletus.jpg'
+import Website from '../assets/portfolio/website.jpg'
 import Loopring from '../assets/portfolio/loopring.JPG'
 
 import {

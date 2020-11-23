@@ -30,7 +30,7 @@ class Contact extends Component {
 		  <Row md = {12} className = "p-5">
 		    <Col md = {6} className="m-auto">
 		    	<Card>
-				  <Card.Header as="h5">Contact Me <FontAwesomeIcon icon = {faAddressCard} size="md" /></Card.Header>
+				  <Card.Header as="h5">Contact Me</Card.Header>
 				  <Card.Body>
 				    <Card.Title>jacobmakarsky@gmail.com</Card.Title>
 				    <Button variant="primary" href = "mailto:jacobmakarsky@gmail.com">Email Me</Button>
